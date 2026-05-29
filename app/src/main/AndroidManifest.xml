@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bluetooth LE Audio -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" />
+
+    <!-- Audio capture from BLE mic array -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Foreground service for Profiling Mode -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+
+    <!-- Phase 15: Foreground service for Vision-to-Music Mode -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+
+    <!-- POST_NOTIFICATIONS for FGS persistent notification (Android 13+) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Internet — required for Meta Wearables SDK registration flow -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
+
+    <application
+        android:name=".LessApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="LESS"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Less">
+
+        <!-- Meta Wearables SDK credentials -->
+        <meta-data android:name="com.meta.wearable.mwdat.APPLICATION_ID" android:value="${metaAppId}" />
+        <meta-data android:name="com.meta.wearable.mwdat.CLIENT_TOKEN" android:value="${metaClientToken}" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="LESS"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Meta Wearables SDK: Registration callback deeplink -->
+            <!-- The Meta AI companion app uses this to return after registration -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="less"
+                    android:host="wearables-callback" />
+            </intent-filter>
+        </activity>
+
+        <!-- Profiling Mode: short-burst audio capture FGS -->
+        <service
+            android:name=".profiling.ProfilingService"
+            android:foregroundServiceType="microphone"
+            android:exported="false" />
+
+        <!-- Phase 15: Vision Music scene capture FGS -->
+        <service
+            android:name=".VisionMusicService"
+            android:foregroundServiceType="camera"
+            android:exported="false" />
+
+        <!-- Phase 8: Quick Settings Tile for instant denoising toggle -->
+        <service
+            android:name=".LessTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_less_tile"
+            android:label="LESS"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.ACTIVE_TILE"
+                android:value="true" />
+        </service>
+
+    </application>
+
+</manifest>

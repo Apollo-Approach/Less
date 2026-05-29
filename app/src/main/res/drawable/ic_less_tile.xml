@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Phase 8: LESS Quick Settings Tile Icon
+    Minimal waveform silhouette matching the dark theme aesthetic.
+    24×24dp canvas with a simplified 3-bar audio waveform centered.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?android:attr/colorControlNormal">
+
+    <!-- Left bar (short) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M4,10 L4,14 C4,14.55 4.45,15 5,15 C5.55,15 6,14.55 6,14 L6,10 C6,9.45 5.55,9 5,9 C4.45,9 4,9.45 4,10 Z" />
+
+    <!-- Center-left bar (medium) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7.5,7 L7.5,17 C7.5,17.55 7.95,18 8.5,18 C9.05,18 9.5,17.55 9.5,17 L9.5,7 C9.5,6.45 9.05,6 8.5,6 C7.95,6 7.5,6.45 7.5,7 Z" />
+
+    <!-- Center bar (tall) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,4 L11,20 C11,20.55 11.45,21 12,21 C12.55,21 13,20.55 13,20 L13,4 C13,3.45 12.55,3 12,3 C11.45,3 11,3.45 11,4 Z" />
+
+    <!-- Center-right bar (medium) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14.5,7 L14.5,17 C14.5,17.55 14.95,18 15.5,18 C16.05,18 16.5,17.55 16.5,17 L16.5,7 C16.5,6.45 16.05,6 15.5,6 C14.95,6 14.5,6.45 14.5,7 Z" />
+
+    <!-- Right bar (short) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,10 L18,14 C18,14.55 18.45,15 19,15 C19.55,15 20,14.55 20,14 L20,10 C20,9.45 19.55,9 19,9 C18.45,9 18,9.45 18,10 Z" />
+</vector>

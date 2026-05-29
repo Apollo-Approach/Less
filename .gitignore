@@ -1,0 +1,52 @@
+# =============================================================================
+# LESS — .gitignore
+# =============================================================================
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+local.properties
+captures/
+
+# --- Kotlin ---
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Native / C++ ---
+.cxx/
+.externalNativeBuild/
+obj/
+*.o
+*.so
+*.dylib
+
+# --- TFLite / ML models (large binaries — use Git LFS or download at build time) ---
+*.tflite
+
+# --- Qualcomm QNN SDK libs (vendor-specific, not redistributable) ---
+**/jniLibs/arm64-v8a/libQnn*.so
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+*.swp
+*~
+
+# --- Signing ---
+*.jks
+*.keystore
+
+# --- Local Logs & Binaries ---
+log*.txt
+build_log.txt
+*.bin

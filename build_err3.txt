@@ -1,0 +1,384 @@
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 36
+
+This Android Gradle plugin (8.7.3) was tested up to compileSdk = 35.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 36.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 36 is available.
+
+For more information refer to the compatibility table:
+https://d.android.com/r/tools/api-level-support
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=36
+to this project's gradle.properties.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:l8DexDesugarLibDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+
+> Task :app:mergeExtDexDebug
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\cae7b96a361ebe9c5a73f045f87155a6\transformed\mwdat-mockdevice-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.meta.peerbuildinfo.f
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\cae7b96a361ebe9c5a73f045f87155a6\transformed\mwdat-mockdevice-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.meta.peerbuildinfo.d
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\ce9583993e66dcf74dd3dea01c1ee71a\transformed\mwdat-core-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.facebook.secure.a.e.d
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\ce9583993e66dcf74dd3dea01c1ee71a\transformed\mwdat-core-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.meta.constellationauth.b
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\ce9583993e66dcf74dd3dea01c1ee71a\transformed\mwdat-core-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.meta.constellationauth.h
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\ce9583993e66dcf74dd3dea01c1ee71a\transformed\mwdat-core-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.facebook.secure.a.e.b
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\ce9583993e66dcf74dd3dea01c1ee71a\transformed\mwdat-core-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.facebook.secure.a.e.a
+WARNING: C:\Users\devon\.gradle\caches\8.9\transforms\ce9583993e66dcf74dd3dea01c1ee71a\transformed\mwdat-core-0.5.0-runtime.jar: D8: The companion object Companion could not be found in class com.facebook.secure.a.e.e
+
+> Task :app:processDebugResources
+> Task :app:mergeLibDexDebug
+> Task :app:compileDebugKotlin
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/BluetoothAudioRouter.kt:261:49 Argument type mismatch: actual type is 'kotlin.String', but 'com.meta.wearable.dat.core.types.DeviceIdentifier' was expected.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/LessApplication.kt:42:10 Syntax error: Missing '}.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/LessApplication.kt:134:1 Syntax error: Unclosed comment.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/LessTileService.kt:72:37 Unresolved reference 'getQnnLibDir'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:90:13 Unresolved reference 'BuildConfig'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:121:56 Unresolved reference 'getQnnLibDir'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:574:29 Unresolved reference 'context'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:575:37 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:575:37 Not enough information to infer type argument for 'T'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:575:37 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:575:37 Not enough information to infer type argument for 'T'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:576:21 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:576:21 Not enough information to infer type argument for 'T'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:584:36 Unresolved reference 'not' for operator '!'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:602:34 Unresolved reference 'not' for operator '!'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:608:21 Unresolved reference 'not' for operator '!'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:699:42 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:743:34 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:743:39 No value passed for parameter 'block'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:747:58 Unresolved reference 'context'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:748:43 Unresolved reference 'exists'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:749:43 Unresolved reference 'listFiles'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/MainActivity.kt:749:66 Unresolved reference 'it'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/debug/MockGlassesController.kt:49:23 Assignment type mismatch: actual type is 'com.meta.wearable.dat.mockdevice.api.MockDeviceKitInterface', but 'com.meta.wearable.dat.mockdevice.MockDeviceKit?' was expected.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/telemetry/TelemetryManager.kt:9:36 Conflicting import: imported name 'Attributes' is ambiguous.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/telemetry/TelemetryManager.kt:10:36 Conflicting import: imported name 'Attributes' is ambiguous.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/telemetry/TelemetryManager.kt:50:65 Argument type mismatch: actual type is 'kotlin.Pair<kotlin.String, kotlin.String?>', but 'kotlin.Pair<kotlin.String, kotlin.String>' was expected.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/training/TrainingWorker.kt:390:57 Unresolved reference 'launch'.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/training/TrainingWorker.kt:391:13 Suspension functions can only be called within coroutine body.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/training/TrainingWorker.kt:487:5 'onStopped' overrides nothing.
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/training/TrainingWorker.kt:487:22 Conflicting overloads:
+suspend fun onStopped(): Unit
+fun onStopped(): Unit
+e: file:///C:/Development/Less/app/src/main/java/com/less/audio/training/TrainingWorker.kt:540:28 Unresolved reference 'BATTERY_PROPERTY_TEMPERATURE'.
+
+> Task :app:compileDebugKotlin FAILED
+
+> Task :app:configureCMakeDebug[arm64-v8a]
+C/C++: CMake Error at CMakeLists.txt:32 (find_package):
+C/C++:   Could not find a package configuration file provided by "tensorflowlite"
+C/C++:   with any of the following names:
+C/C++:     tensorflowliteConfig.cmake
+C/C++:     tensorflowlite-config.cmake
+C/C++:   Add the installation prefix of "tensorflowlite" to CMAKE_PREFIX_PATH or set
+C/C++:   "tensorflowlite_DIR" to a directory containing one of the above files.  If
+C/C++:   "tensorflowlite" provides a separate development package or SDK, be sure it
+C/C++:   has been installed.
+
+> Task :app:configureCMakeDebug[arm64-v8a] FAILED
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:configureCMakeDebug[arm64-v8a]'.
+> [CXX1429] error when building with cmake using C:\Development\Less\app\src\main\cpp\CMakeLists.txt: -- The CXX compiler identification is Clang 18.0.1
+  -- The C compiler identification is Clang 18.0.1
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Users/devon/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Users/devon/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Development/Less/app/.cxx/Debug/4t211o2r/arm64-v8a/CMakeFiles/CMakeOutput.log".
+  
+  C++ build system [configure] failed while executing:
+      @echo off
+      "C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+        "-HC:\\Development\\Less\\app\\src\\main\\cpp" ^
+        "-DCMAKE_SYSTEM_NAME=Android" ^
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+        "-DCMAKE_SYSTEM_VERSION=33" ^
+        "-DANDROID_PLATFORM=android-33" ^
+        "-DANDROID_ABI=arm64-v8a" ^
+        "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+        "-DANDROID_NDK=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+        "-DCMAKE_ANDROID_NDK=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+        "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\build\\cmake\\android.toolchain.cmake" ^
+        "-DCMAKE_MAKE_PROGRAM=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        "-DCMAKE_CXX_FLAGS=-std=c++17 -O2 -ffast-math -DANDROID" ^
+        "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Development\\Less\\app\\build\\intermediates\\cxx\\Debug\\4t211o2r\\obj\\arm64-v8a" ^
+        "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Development\\Less\\app\\build\\intermediates\\cxx\\Debug\\4t211o2r\\obj\\arm64-v8a" ^
+        "-DCMAKE_BUILD_TYPE=Debug" ^
+        "-DCMAKE_FIND_ROOT_PATH=C:\\Development\\Less\\app\\.cxx\\Debug\\4t211o2r\\prefab\\arm64-v8a\\prefab" ^
+        "-BC:\\Development\\Less\\app\\.cxx\\Debug\\4t211o2r\\arm64-v8a" ^
+        -GNinja ^
+        "-DANDROID_STL=c++_shared" ^
+        "-DANDROID_ARM_NEON=TRUE"
+    from C:\Development\Less\app
+  CMake Error at CMakeLists.txt:32 (find_package):
+    Could not find a package configuration file provided by "tensorflowlite"
+    with any of the following names:
+  
+      tensorflowliteConfig.cmake
+      tensorflowlite-config.cmake
+  
+    Add the installation prefix of "tensorflowlite" to CMAKE_PREFIX_PATH or set
+    "tensorflowlite_DIR" to a directory containing one of the above files.  If
+    "tensorflowlite" provides a separate development package or SDK, be sure it
+    has been installed. : com.android.ide.common.process.ProcessException: -- The CXX compiler identification is Clang 18.0.1
+  -- The C compiler identification is Clang 18.0.1
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Users/devon/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Users/devon/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Development/Less/app/.cxx/Debug/4t211o2r/arm64-v8a/CMakeFiles/CMakeOutput.log".
+  
+  C++ build system [configure] failed while executing:
+      @echo off
+      "C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+        "-HC:\\Development\\Less\\app\\src\\main\\cpp" ^
+        "-DCMAKE_SYSTEM_NAME=Android" ^
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+        "-DCMAKE_SYSTEM_VERSION=33" ^
+        "-DANDROID_PLATFORM=android-33" ^
+        "-DANDROID_ABI=arm64-v8a" ^
+        "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+        "-DANDROID_NDK=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+        "-DCMAKE_ANDROID_NDK=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973" ^
+        "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\build\\cmake\\android.toolchain.cmake" ^
+        "-DCMAKE_MAKE_PROGRAM=C:\\Users\\devon\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        "-DCMAKE_CXX_FLAGS=-std=c++17 -O2 -ffast-math -DANDROID" ^
+        "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Development\\Less\\app\\build\\intermediates\\cxx\\Debug\\4t211o2r\\obj\\arm64-v8a" ^
+        "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Development\\Less\\app\\build\\intermediates\\cxx\\Debug\\4t211o2r\\obj\\arm64-v8a" ^
+        "-DCMAKE_BUILD_TYPE=Debug" ^
+        "-DCMAKE_FIND_ROOT_PATH=C:\\Development\\Less\\app\\.cxx\\Debug\\4t211o2r\\prefab\\arm64-v8a\\prefab" ^
+        "-BC:\\Development\\Less\\app\\.cxx\\Debug\\4t211o2r\\arm64-v8a" ^
+        -GNinja ^
+        "-DANDROID_STL=c++_shared" ^
+        "-DANDROID_ARM_NEON=TRUE"
+    from C:\Development\Less\app
+  CMake Error at CMakeLists.txt:32 (find_package):
+    Could not find a package configuration file provided by "tensorflowlite"
+    with any of the following names:
+  
+      tensorflowliteConfig.cmake
+      tensorflowlite-config.cmake
+  
+    Add the installation prefix of "tensorflowlite" to CMAKE_PREFIX_PATH or set
+    "tensorflowlite_DIR" to a directory containing one of the above files.  If
+    "tensorflowlite" provides a separate development package or SDK, be sure it
+    has been installed.
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:288)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:108)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:106)
+  	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:32)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess(ExecuteProcess.kt:106)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess$default(ExecuteProcess.kt:85)
+  	at com.android.build.gradle.tasks.CmakeQueryMetadataGenerator.executeProcess(CmakeFileApiMetadataGenerator.kt:59)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator$configureOneAbi$1$1$3.invoke(ExternalNativeJsonGenerator.kt:247)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator$configureOneAbi$1$1$3.invoke(ExternalNativeJsonGenerator.kt:247)
+  	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:32)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator.configureOneAbi(ExternalNativeJsonGenerator.kt:247)
+  	at com.android.build.gradle.tasks.ExternalNativeJsonGenerator.configure(ExternalNativeJsonGenerator.kt:113)
+  	at com.android.build.gradle.tasks.ExternalNativeBuildJsonTask.doTaskAction(ExternalNativeBuildJsonTask.kt:89)
+  	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask$taskAction$$inlined$recordTaskAction$1.invoke(BaseTask.kt:78)
+  	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:51)
+  	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask.taskAction(UnsafeOutputsTask.kt:81)
+  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+  	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+  	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+  	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+  	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+  	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+  	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+  	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+  	at org.gradle.internal.Either$Right.fold(Either.java:175)
+  	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+  	at java.base/java.util.Optional.orElseGet(Unknown Source)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+  	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+  	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:105)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:54)
+  	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+  	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+  	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+  	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+  	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at java.base/java.util.Optional.orElseGet(Unknown Source)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+  	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+  	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+  	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+  	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+  	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+  	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+  	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+  	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+  	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+  	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  	at java.base/java.lang.Thread.run(Unknown Source)
+  Caused by: com.android.ide.common.process.ProcessException: Error while executing process C:\Users\devon\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe with arguments {-HC:\Development\Less\app\src\main\cpp -DCMAKE_SYSTEM_NAME=Android -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_SYSTEM_VERSION=33 -DANDROID_PLATFORM=android-33 -DANDROID_ABI=arm64-v8a -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a -DANDROID_NDK=C:\Users\devon\AppData\Local\Android\Sdk\ndk\27.0.12077973 -DCMAKE_ANDROID_NDK=C:\Users\devon\AppData\Local\Android\Sdk\ndk\27.0.12077973 -DCMAKE_TOOLCHAIN_FILE=C:\Users\devon\AppData\Local\Android\Sdk\ndk\27.0.12077973\build\cmake\android.toolchain.cmake -DCMAKE_MAKE_PROGRAM=C:\Users\devon\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -DCMAKE_CXX_FLAGS=-std=c++17 -O2 -ffast-math -DANDROID -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Development\Less\app\build\intermediates\cxx\Debug\4t211o2r\obj\arm64-v8a -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\Development\Less\app\build\intermediates\cxx\Debug\4t211o2r\obj\arm64-v8a -DCMAKE_BUILD_TYPE=Debug -DCMAKE_FIND_ROOT_PATH=C:\Development\Less\app\.cxx\Debug\4t211o2r\prefab\arm64-v8a\prefab -BC:\Development\Less\app\.cxx\Debug\4t211o2r\arm64-v8a -GNinja -DANDROID_STL=c++_shared -DANDROID_ARM_NEON=TRUE}
+  	at com.android.build.gradle.internal.process.GradleProcessResult.buildProcessException(GradleProcessResult.java:73)
+  	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:48)
+  	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:277)
+  	... 139 more
+  Caused by: org.gradle.process.internal.ExecException: Process 'command 'C:\Users\devon\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe'' finished with non-zero exit value 1
+  	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:442)
+  	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:46)
+  	... 140 more
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 1m 32s
+24 actionable tasks: 5 executed, 19 up-to-date

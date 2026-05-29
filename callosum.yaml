@@ -1,0 +1,30 @@
+wing: less
+rooms:
+- name: app
+  description: Files from app/
+  keywords:
+  - app
+  - app
+- name: gradle
+  description: Files from gradle/
+  keywords:
+  - gradle
+  - gradle
+- name: python
+  description: Files from python/
+  keywords:
+  - python
+  - python
+- name: scripts
+  description: Files from scripts/
+  keywords:
+  - scripts
+  - scripts
+- name: temp_aar
+  description: Files from temp_aar/
+  keywords:
+  - temp_aar
+  - temp_aar
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

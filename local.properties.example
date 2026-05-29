@@ -1,0 +1,13 @@
+# This is an example of the local.properties file needed to build the project.
+# Do NOT check your actual local.properties file into version control.
+
+# The Android SDK directory is usually generated automatically by Android Studio
+# sdk.dir=/path/to/your/android/sdk
+
+# GitHub Personal Access Token (if required for specific package downloads)
+github_token=YOUR_GITHUB_TOKEN_HERE
+
+# Meta Wearables SDK Credentials
+# You can generate these by creating an App on the Meta Horizon Developer Dashboard
+meta_app_id=YOUR_META_APP_ID_HERE
+meta_client_token=YOUR_META_CLIENT_TOKEN_HERE

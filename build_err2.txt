@@ -1,0 +1,95 @@
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 36
+
+This Android Gradle plugin (8.7.3) was tested up to compileSdk = 35.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 36.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 36 is available.
+
+For more information refer to the compatibility table:
+https://d.android.com/r/tools/api-level-support
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=36
+to this project's gradle.properties.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata FAILED
+> Task :app:mergeDebugResources
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+   > 9 issues were found when checking AAR metadata:
+     
+       1.  Dependency 'io.opentelemetry.android:android-agent:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       2.  Dependency 'io.opentelemetry.android:instrumentation-activity:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       3.  Dependency 'io.opentelemetry.android:instrumentation-anr:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       4.  Dependency 'io.opentelemetry.android:instrumentation-crash:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       5.  Dependency 'io.opentelemetry.android:instrumentation-network:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       6.  Dependency 'io.opentelemetry.android:instrumentation-slowrendering:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       7.  Dependency 'io.opentelemetry.android:instrumentation-startup:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       8.  Dependency 'io.opentelemetry.android:instrumentation-common-api:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+     
+       9.  Dependency 'io.opentelemetry.android:common:0.6.0-alpha' requires core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.com/studio/write/java8-support.html for more
+           details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+5 actionable tasks: 3 executed, 2 up-to-date
